@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    font-family: cursive;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Home Section */
+.home-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    margin: 100px 200px 200px 200px;
+}
+
+.profile-pic {
+    flex: 1;
+}
+.text_button {
+    flex: 2; 
+    margin-top: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px; 
+}
+
+.profile-pic img {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+.span{
+    color: red;
+}
+.container{
+    display: inline-block;
+  }
+.typed-out{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(50, end) infinite;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+.typed-out:hover {
+    animation: typing 1s forwards;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.buttons .btn:hover {
+    background-color: whitesmoke;
+    border-color: black;
+}
+.btn-resume {
+    background-color: rgb(238 163 2);
+}
+
+.btn-projects {
+    background-color: rgb(255 59 37);
+}
+
+.btn-contact {
+    background-color: rgb(128 216 218);
+}
+
+/* Footer */
+.footer {
+    color:black;
+    padding: 20px;
+    display: flex;
+    border-top: 2px solid lightgray;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
